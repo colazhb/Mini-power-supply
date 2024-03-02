@@ -1,0 +1,10 @@
+#ifndef __FRAME_CTL_PWB_H
+#define __FRAME_CTL_PWB_H
+
+#include "stdint.h"
+void pwb_frame_init();
+void frame_loop_cb();
+
+extern struct frame_obj frame_pwb;
+
+#endif

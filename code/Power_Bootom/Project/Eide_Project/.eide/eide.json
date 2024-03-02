@@ -1,0 +1,375 @@
+{
+  "name": "Power_Bootom",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Application",
+        "files": [
+          {
+            "path": "../../App/adc_conv.c"
+          },
+          {
+            "path": "../../App/frame_ctl_pwb.c"
+          },
+          {
+            "path": "../../App/frame.c"
+          },
+          {
+            "path": "../../App/gd32e23x_it.c"
+          },
+          {
+            "path": "../../App/i2c_ulib.c"
+          },
+          {
+            "path": "../../App/ina226_user.c"
+          },
+          {
+            "path": "../../App/ina226.c"
+          },
+          {
+            "path": "../../App/led.c"
+          },
+          {
+            "path": "../../App/main.c"
+          },
+          {
+            "path": "../../App/mcu_flash.c"
+          },
+          {
+            "path": "../../App/power_data.c"
+          },
+          {
+            "path": "../../App/protect.c"
+          },
+          {
+            "path": "../../App/sc8815_user.c"
+          },
+          {
+            "path": "../../App/SC8815.c"
+          },
+          {
+            "path": "../../App/shell_user.c"
+          },
+          {
+            "path": "../../App/systick.c"
+          },
+          {
+            "path": "../../App/uart_com.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "CMSIS",
+        "files": [
+          {
+            "path": "../../Firmware/CMSIS/GD/GD32E23x/Source/system_gd32e23x.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Doc",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "Lib",
+        "files": [],
+        "folders": [
+          {
+            "name": "lwrb",
+            "files": [
+              {
+                "path": "../../Lib/lwrb/lwrb_ex.c"
+              },
+              {
+                "path": "../../Lib/lwrb/lwrb.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "shell",
+            "files": [
+              {
+                "path": "../../Lib/letter-shell-shell2.x/shell_ext.c"
+              },
+              {
+                "path": "../../Lib/letter-shell-shell2.x/shell.c"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "smarttimer",
+            "files": [
+              {
+                "path": "../../Lib/smarttimer/smarttimer.c"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "Peripherals",
+        "files": [
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_adc.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_cmp.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_crc.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_dbg.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_dma.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_exti.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_fmc.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_fwdgt.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_gpio.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_i2c.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_misc.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_pmu.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_rcu.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_rtc.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_spi.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_syscfg.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_timer.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_usart.c"
+          },
+          {
+            "path": "../../Firmware/GD32E23x_standard_peripheral/Source/gd32e23x_wwdgt.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Startup",
+        "files": [
+          {
+            "path": "../../Firmware/CMSIS/GD/GD32E23x/Source/ARM/startup_gd32e23x.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Utilities",
+        "files": [],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "23d161d55879558ed386a72cfbb42391"
+  },
+  "targets": {
+    "GD32E23x": {
+      "excludeList": [
+        "<virtual_root>/::CMSIS",
+        "<virtual_root>/Application/lcd_init.c",
+        "<virtual_root>/Application/ring_buffer.c"
+      ],
+      "toolchain": "AC6",
+      "compileConfig": {
+        "cpuType": "Cortex-M23",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "../Keil_Project/output/Project.sct",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x2000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x10000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "gd32e23x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../../Firmware/CMSIS",
+          "../../Utilities",
+          "..",
+          "../../Utilities/LCD_Commom",
+          "../../Firmware/GD32E23x_standard_peripheral/Include",
+          "../../Firmware/CMSIS/GD/GD32E23x/Include",
+          ".cmsis/include",
+          "../Keil_Project/RTE/_GD32E23x",
+          ".eide/deps",
+          "../../App",
+          "../../Lib/lwrb",
+          "../../Lib/MultiButton-master",
+          "../../Lib/smarttimer",
+          "../../Lib/letter-shell-shell2.x"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "GD32E230"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
